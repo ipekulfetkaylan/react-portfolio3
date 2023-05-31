@@ -1,5 +1,5 @@
 import "./intro.css";
-import Man from "../../img/Womann.png";
+import {image} from "../../data"
 
 function Intro() {
   return (
@@ -26,7 +26,7 @@ function Intro() {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src={Man} alt="" className="i-img" />
+        <img src={image} alt="" className="i-img" />
       </div>
     </div>
   );

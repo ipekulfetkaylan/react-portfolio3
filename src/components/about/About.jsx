@@ -1,4 +1,5 @@
 import "./about.css";
+import { award } from "../../data";
 
 function About() {
   return (
@@ -29,7 +30,11 @@ function About() {
           eligendi?
         </p>
         <div className="a-award">
-            <img src="" alt="" />
+            <img src={award} alt="" className="a-award-img" />
+            <div className="a-award-texts">
+              <h4 className="a-award-title">Lorem, ipsum dolor.</h4>
+              <p className="a-award-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi similique totam voluptas nesciunt voluptatem porro sit minus alias non.</p>
+            </div>
         </div>
       </div>
     </div>
